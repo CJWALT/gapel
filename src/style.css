@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Inter:wght@600&family=Kavoon&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.active{ 
+    color:red;
+}
+
+.marq{
+    display: inline-block;
+    animation: marquee 5s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
