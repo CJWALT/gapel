@@ -24,8 +24,9 @@
                 <small class="font-[Kavoon] tracking-[.4rem] w-[60%] mx-auto block text-center"> GAPEL: The peace leadership is everyday practice </small>
             </div>
         </div>
-        <div class=" relative w-full flex justify-center mt-[3.7rem] border-2 border-red-400 z-20">
+        <div class=" relative w-full flex justify-center mt-[3.7rem] z-20">
             <Button
+            btnRound="rounded-[35px]"
             colorBtn="bg-[#052554]" 
             children="Donate"
             padBtn="lowPad"/>

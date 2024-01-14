@@ -1,6 +1,6 @@
 <template> 
 
-                <button :class='[getPadClass(), bgColor, " rounded-[.8rem] text-white font-bold hover:bg-[#fff] hover:text-[#18478D] text-[1.5rem]"]'>{{ props.children }}</button>
+                <button :class='[getPadClass(), bgColor, btnRounded, "text-white font-bold hover:bg-[#fff] hover:text-[#18478D] text-[1.5rem]"]'>{{ props.children }}</button>
 
             
 
