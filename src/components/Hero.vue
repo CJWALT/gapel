@@ -1,7 +1,7 @@
 <template>
 
          
-<section class="z-0 relative w-[80%] max-w-[1180px] bg-[url('./assets/img/mainbg.jpg')] bg-no-repeat bg-center bg-cover
+<section class="z-0 relative w-[80%] md:w-[100%] max-w-[1180px] bg-[url('./assets/img/mainbg.jpg')] bg-no-repeat bg-center bg-cover
                         before:absolute before:inset-0 before:bg-[#35598F] before:opacity-50
         ">
            
