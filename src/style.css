@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Candal&family=Inter:wght@600&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Inter:wght@400;600&family=Kavoon&family=Knewave&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,3 +22,13 @@ a.active{
       transform: translateX(-100%);
     }
   }
+
+.radialBox{ 
+    width:560px; 
+    
+    height:540px;
+    transform: rotate(41.387deg);
+    border-radius: 20px;
+    border: 22px dashed #546D92;
+background: radial-gradient(71.86% 71.87% at 51.36% -21.68%, rgba(67, 110, 150, 0.92) 51.34%, rgba(217, 217, 217, 0.00) 72.9%);
+}
