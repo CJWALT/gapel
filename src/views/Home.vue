@@ -7,8 +7,11 @@
     </main>
 
     <div class="relative">
-        <span class="hidden md:block radialBox w-[5rem] h-[4rem] absolute top-0"></span>
-        <NewsSponsor/>
+        
+        <LatestNews/>
+    </div>
+    <div class="bg-sponsorgba"> 
+        <Sponsor/>
 
     </div>
     <OurMission/>
@@ -23,11 +26,12 @@
 <script setup> 
 import Hero from '../components/Hero.vue'
 import SideNav from '../components/SideNav.vue'
-import NewsSponsor from '../components/NewsSponsor.vue'
+import LatestNews from '../components/LatestNews.vue'
 import OurMission from '../components/OurMission.vue'
 import ImpDonate from '../components/ImpDonate.vue'
 import Contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
+import Sponsor from '../components/Sponsor.vue'
 
  
 
