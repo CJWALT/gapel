@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Candal&family=Inter:wght@400;600&family=Kavoon&family=Knewave&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Inter:wght@400;600&family=Kavoon&family=Knewave&family=Mada:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,5 +29,32 @@ a.active{
     transform: rotate(41.387deg);
     border-radius: 20px;
     border: 22px dashed #546D92;
-background: radial-gradient(71.86% 71.87% at 51.36% -21.68%, rgba(67, 110, 150, 0.92) 51.34%, rgba(217, 217, 217, 0.00) 72.9%);
+    background: radial-gradient(71.86% 71.87% at 51.36% -21.68%, rgba(67, 110, 150, 0.92) 51.34%, rgba(217, 217, 217, 0.00) 72.9%);
 }
+
+
+/* animate news arrow */
+.animate-arr{ 
+     background-position-y:16rem;
+     
+     background-size:10rem;
+     background-repeat: no-repeat;
+         
+     animation:danceArr 2s ease-in infinite;
+}
+
+
+@keyframes danceArr {
+    0%{ 
+        background-position-x:-10px
+    }
+    50%{ 
+        background-position-x:-5px
+    }
+
+    100%{ 
+        background-position-x:0px
+    }
+}
+    
+

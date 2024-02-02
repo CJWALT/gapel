@@ -1,6 +1,6 @@
 <template> 
 
-    <div class=" whitespace-normal flex flex-col mx-auto h-auto w-[60%] gap-2">
+    <div class=" whitespace-normal flex flex-col mx-auto h-auto md:w-[50%] w-[60%] gap-2">
         <div class="h-[auto] rounded-[7px] overflow-hidden">
             <img src="../assets/img/tes1.jpg" alt="test one"/>
         </div>

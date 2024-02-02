@@ -6,7 +6,7 @@
         <Hero/>
     </main>
 
-    <div class="relative">
+    <div class="relative animate-arr lg:bg-[url(./assets/img/arranimate.png)]">
         
         <LatestNews/>
     </div>

@@ -1,6 +1,6 @@
-<template> 
+<template>     
 
-                <button :class='[getPadClass(), bgColor, btnRounded, "text-white font-bold hover:bg-[#fff] hover:text-[#18478D] text-[1.5rem]"]'>{{ props.children }}</button>
+                <button :class='[getPadClass(), bgColor, btnRounded, "text-white font-bold hover:bg-[#fff] hover:text-[#18478D] hover:shadow-md text-[1.5rem]"]'>{{ props.children }}</button>
 
             
 
@@ -10,11 +10,10 @@
 
     
 import {defineProps}from 'vue'
-        const highPad = 'py-[.9rem] px-[2.1rem]'
+        const highPad = 'py-[.9rem] px-[2.5rem]'
         const lowPad = 'py-[.9rem] px-[1.63rem]'
-
-         const btnColor =['red', 'bg-[#052554]', 'green']
-         const roundBtn = ['rounded-[35px]', 'rounded-md']
+         const btnColor =['red', 'bg-[#052554]', 'bg-[#0447AB]']
+         const roundBtn = ['rounded-[35px]', 'rounded-md', 'rounded-[0.8rem]']
          
 
 
@@ -23,8 +22,7 @@ import {defineProps}from 'vue'
             children: String,
             colorBtn: String,
             btnRound: String
-         }
-         )
+         })
 
 
          

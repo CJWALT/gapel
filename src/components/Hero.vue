@@ -1,11 +1,18 @@
 <template>
 
          
-<section class="z-0 relative lg:w-[80%] w-[100%] bg-[url('./assets/img/mainbg.jpg')] bg-no-repeat bg-center bg-cover
+<section class="z-0 relative lg:max-w-[80%] lg:min-w-[77%] w-[100%]
                         before:absolute before:inset-0 before:bg-[#35598F] before:opacity-50
         ">
-           
-        <div class=" z-20 relative pt-[3rem] w-[90%] mx-auto flex flex-col gap-5 overflow-hidden">
+        
+        <video class="h-full absolute w-full object-center object-cover -z-10 top-0 right-0" loop muted autoplay preload="auto">
+            <source src="../assets/videobg/gapel-bg.mp4" type="video/mp4"> 
+            Your browser does not support the video
+
+        </video>
+
+
+        <div class=" z-50 relative pt-[3rem] w-[90%] mx-auto flex flex-col gap-5 overflow-hidden">
            <div class="p-[.5rem] items-center shadow-md mb-[3.5rem] self-end overflow-hidden whitespace-nowrap right-0 lg:flex hidden bg-[#18478D] rounded-[100%] h-[50px] w-[145px]">
             <span
              class="z-20 text-white font-bold marq"
@@ -49,8 +56,8 @@
 
 <script setup>
 import Button from './Button.vue';
-import SideNav from './SideNav.vue';
 
- 
+
+
 
 </script>
