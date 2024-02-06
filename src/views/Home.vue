@@ -1,5 +1,5 @@
 <template> 
-    <main class="flex relative h-screen overflow-hidden">
+    <main class="block lg:flex relative h-screen overflow-hidden">
       
       
         <SideNav/>

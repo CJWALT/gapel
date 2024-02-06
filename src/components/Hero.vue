@@ -18,14 +18,7 @@
              class="z-20 text-white font-bold marq"
             >Play your part by taking action</span>
            </div>
-            <div class="flex flex-row justify-between lg:hidden items-center">
-                <div class="w-[25%] md:w-[20%]">
-                    <img src="../assets/img/gapel.png" class=" rounded-md" alt="logo">
-                </div>
-                <span class="font-bold shadow-md text-pink-400 cursor-pointer">
-                    menu
-                </span>
-            </div>
+            
             <div
                 class="
                 text-center 
@@ -55,8 +48,17 @@
 </template>
 
 <script setup>
-import Button from './Button.vue';
 
+import { ref } from 'vue'
+import Button from './Button.vue';
+import SideNav from './SideNav.vue'
+
+
+const showNav = ref(false)
+
+const showMenu = () =>{ 
+    showNav.value= !showNav.value;
+}
 
 
 

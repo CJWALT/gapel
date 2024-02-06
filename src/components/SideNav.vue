@@ -1,7 +1,7 @@
 <template>
 
     <!-- side nav -->
-        <div class="py-[4rem] hidden lg:flex max-h-auto flex-col bg-[#16386A] w-[20%] items-center"> 
+        <div class="py-[4rem] hidden lg:flex max-h-auto flex-col bg-[#16386A] lg:w-[20%] border-2 items-center"> 
 
             <div class="mb-[4.25rem] ">
                 <img src="../assets/img/gapel.png" class="w-[8rem] rounded-[5px]" alt="gapel logo">
