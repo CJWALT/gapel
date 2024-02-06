@@ -1,7 +1,7 @@
 <template>
 
          
-<section class="z-0 relative lg:max-w-[80%] lg:min-w-[77%] w-[100%]
+<section class="z-0 h-full relative lg:max-w-[80%] lg:min-w-[77%] w-[100%]
                         before:absolute before:inset-0 before:bg-[#35598F] before:opacity-50
         ">
         
@@ -48,18 +48,6 @@
 </template>
 
 <script setup>
-
-import { ref } from 'vue'
 import Button from './Button.vue';
-import SideNav from './SideNav.vue'
-
-
-const showNav = ref(false)
-
-const showMenu = () =>{ 
-    showNav.value= !showNav.value;
-}
-
-
 
 </script>
