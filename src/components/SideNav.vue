@@ -1,4 +1,6 @@
 <template>
+
+    <!-- side nav -->
         <div class="py-[4rem] hidden lg:flex max-h-auto flex-col bg-[#16386A] w-[20%] items-center"> 
 
             <div class="mb-[4.25rem] ">
@@ -22,7 +24,21 @@
             </div>
 
         </div>
+        <!-- mobile nav -->
 
+
+        <div class="border-2 border-red-400 flex flex-row justify-between lg:hidden items-center">
+                <div class="w-[25%] md:w-[20%]">
+                    <img src="../assets/img/gapel.png" class=" rounded-md" alt="logo">
+                </div>
+                <span @click="showMenu" class="font-bold shadow-md text-pink-400 cursor-pointer">
+                    menu
+                </span>
+                <div class="absolute">
+                <SideNav  v-if="showNav"/>
+
+                </div>
+            </div>
 </template>
 
 <script setup> 
