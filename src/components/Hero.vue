@@ -25,13 +25,12 @@
                 z-20                
                 overflow-hidden                
                 text-[#E8F1FF]
-                 mt-[4.5rem]
+                 mt-[9.6rem]
                 lg:mt-0
-                 md:mt-[4rem]
                 "
             >
-                <h2 class=" leading-[1.7rem] md:leading-[3.3rem] mb-[2rem] font-[Candal] text-[24px] md:text-[54px] uppercase font-normal">Global Alliance <br/> for peace leadership</h2>
-                <small class="font-[Kavoon] tracking-[.2rem] md:tracking-[.4rem] w-[80%] md:w-[60%] mx-auto block text-center"> GAPEL: The peace leadership is everyday practice </small>
+                <h2 class=" leading-[1.7rem] md:leading-[3.3rem] mb-[1.4rem] lg:mb-[2rem] font-[Candal] text-[32px] md:text-[54px] uppercase font-normal">Global Alliance <br/> for peace leadership</h2>
+                <small class="font-[Kavoon] text-black tracking-[.2rem] md:tracking-[.4rem] border-2 border-red-400 w-[90%] md:w-[60%] mx-auto block text-center"> GAPEL: The peace leadership is everyday practice </small>
             </div>
         </div>
         <div class=" relative w-full flex -bottom-[5rem] md:-bottom-0 md:mt-[2rem] justify-center z-20">
