@@ -2,16 +2,16 @@
 
     <!-- side nav -->
 
-    <div :class="[showNav ? showSideNavClass : sideNavClass, 'pt-[4rem]', 'h-full', 'bg-blue-900', 'lg:max-w-[20rem]', 'lg:w-[20rem]']">
+    <div :class="[showNav ? showSideNavClass + ' slide-nav-in' : sideNavClass + ' slide-nav-out', 'pt-[4rem]', 'h-full', 'bg-[#16386A]', 'shadow', 'shadow-right', 'shadow-[#C1DAFE]', 'navShadow']">
     
-            <div class="mb-[2.2rem] ">
+            <div class="md:mb-[2.2rem] ">
                 <img src="../assets/img/gapel.png" class="w-[8rem] rounded-[5px] hidden lg:block" alt="gapel logo">
             </div>
-            <div class="flex flex-col mx-auto w-[70%] font-[inter] font-semibold text-white">
-                <router-link to='/' :class="[navStyles, navBorderGrad]" >home</router-link>
-                <router-link to='/' :class="[navStyles, navBorderGrad]" >who we are</router-link>
-                <router-link to='/' :class="[navStyles, navBorderGrad]" >what we do</router-link>
-                <router-link to='/' :class="[navStyles, navBorderGrad]" >latest news</router-link>
+            <div class="flex flex-col mx-auto w-[70%] lg:mt-[0rem] mt-[5rem] font-[inter] font-semibold text-white">
+                <router-link to='/' :class="[navStyles, 'navBorderGrad']" >home</router-link>
+                <router-link to='/' :class="[navStyles, 'navBorderGrad']">who we are</router-link>
+                <router-link to='/' :class="[navStyles, 'navBorderGrad']"> what we do</router-link>
+                <router-link to='/' :class="[navStyles, 'navBorderGrad']">latest news</router-link>
             </div>
             
                 <router-link to='/' class=" relative rounded-md shadow-[#629DF54D] hover:shadow-md hover:shadow-white shadow-md flex justify-center px-3 py-2 mx-auto mt-[1.8rem] font-bold text-white" >gallery</router-link>
@@ -43,10 +43,10 @@
     import {ref} from 'vue';
     import Button from './Button.vue';
 
-    const navStyles = 'pt-[1.2rem] pb-1 pl-2 hover:text-[#052554] transition duration-100 linear leading-none hover:rounded-[.1rem] hover:bg-[#E8F1FF]'
+    const navStyles = 'pt-[1.2rem] pb-1 pl-2 hover:text-[#052554] transform transition-transform translate-x-0 duration-900 ease-in leading-none hover:rounded-[.1rem] hover:bg-[#E8F1FF] sm:left-[-30px] md:left-[0px]'
 
-    const sideNavClass = 'hidden lg:flex max-h-auto lg:flex-col items-center gap-[.2rem]'
-    const showSideNavClass = 'absolute z-30 top-0 left-0 block lg:flex lg:flex-col border-2 border-red-400 items-center'
+    const sideNavClass = 'hidden lg:flex max-h-auto lg:flex-col items-center gap-[.2rem] lg:max-w-[20rem] lg:w-[20rem]'
+    const showSideNavClass = 'absolute z-30 top-0 left-0 flex flex-col items-center w-[15rem] max-w-[15rem]'
 
 
 

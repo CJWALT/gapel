@@ -22,24 +22,13 @@ a.active{
     }
   }
 
-.radialBox{ 
-    width:560px; 
-    
-    height:540px;
-    transform: rotate(41.387deg);
-    border-radius: 20px;
-    border: 22px dashed #546D92;
-    background: radial-gradient(71.86% 71.87% at 51.36% -21.68%, rgba(67, 110, 150, 0.92) 51.34%, rgba(217, 217, 217, 0.00) 72.9%);
-}
 
 
 /* animate news arrow */
 .animate-arr{ 
      background-position-y:16rem;
-     
      background-size:10rem;
      background-repeat: no-repeat;
-         
      animation:danceArr 2s ease-in infinite;
 }
 
@@ -58,12 +47,38 @@ a.active{
 }
     
 
-.navBorderGrad{ 
+.navShadow{ 
+  box-shadow:4px 0px 30px rgba(98, 157, 245, 0.3)
+}
+
+.navBorderGrad{
   
-    border-width: 2px; /* Adjust border width as needed */
+  
+    border-width: 2px; 
     border-bottom-style: solid;
-    border-image: linear-gradient(to right, #ff00ff, #00ffff); /* Define your gradient colors */
-    border-image-slice: 1; /* Ensure the gradient stretches across the entire border */
-  
+    border-image: linear-gradient(to right, 
+    rgba(98, 157, 245, 0.3) 0%,   /* First color with 30% opacity */
+    rgba(98, 157, 245, 1) 50%,    /* Second color with 100% opacity */
+    rgba(98, 157, 245, 0) 100%    /* Third color with 0% opacity */
+);
+    border-image-slice: 1; 
+    
+    border-top: 2px;
+    border-left:2px;
+    border-right:2px ; 
+}
+
+.slide-nav-in{ 
+  transition: transform 10s ease-out;
+}
+
+.slide-nav-out{
+  transform: translateX(-100%);
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-nav-out {
+    transform: translateX(0%);
+  }
 }
 

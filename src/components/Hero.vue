@@ -18,28 +18,32 @@
              class="z-20 text-white font-bold marq"
             >Play your part by taking action</span>
            </div>
-            
-            <div
+            <div class="flex flex-col h-[100vh] gap-8 lg:justify-start justify-center">
+
+                <div
                 class="
                 text-center 
                 z-20                
                 overflow-hidden                
                 text-[#E8F1FF]
-                 mt-[9.6rem]
+                 
                 lg:mt-0
                 "
             >
-                <h2 class=" leading-[1.7rem] md:leading-[3.3rem] mb-[1.4rem] lg:mb-[2rem] font-[Candal] text-[32px] md:text-[54px] uppercase font-normal">Global Alliance <br/> for peace leadership</h2>
-                <small class="font-[Kavoon] text-black tracking-[.2rem] md:tracking-[.4rem] border-2 border-red-400 w-[90%] md:w-[60%] mx-auto block text-center"> GAPEL: The peace leadership is everyday practice </small>
+                <h2 class=" leading-[1.7rem] md:leading-[3.3rem] mb-[1.4rem] lg:mb-[2rem] font-[Candal] text-[1.3rem] md:text-[54px] uppercase font-normal">Global Alliance <br/> for peace leadership</h2>
+                <small class="font-[Kavoon] text-[#E1EDFF] text-[.7rem] md:text-[1rem] tracking-[.1rem] md:tracking-[.4rem] md:w-[40rem] md:max-w-[40rem] w-[20rem] mx-auto block text-center"> GAPEL: The peace leadership is everyday practice </small>
             </div>
+                <div class=" relative w-full flex justify-center z-20">
+                                <Button
+                                btnRound="rounded-[35px]"
+                                colorBtn="bg-[#052554]" 
+                                children="Donate"
+                                padBtn="lowPad"/>
+                            </div>
+            </div>
+            
         </div>
-        <div class=" relative w-full flex -bottom-[5rem] md:-bottom-0 md:mt-[2rem] justify-center z-20">
-            <Button
-            btnRound="rounded-[35px]"
-            colorBtn="bg-[#052554]" 
-            children="Donate"
-            padBtn="lowPad"/>
-        </div>
+        
        
         </section>
 

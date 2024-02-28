@@ -5,8 +5,8 @@
             <img src="../assets/img/tes1.jpg" alt="test one"/>
         </div>
         <div class="whitespace-normal flex flex-col gap-1">
-                <h4 class="font-[inter] text-[1rem] font-bold leading-none">Global alliance talk</h4>
-            <small class="font-[inter] text-justify font-normal leading-[.8rem] text-[.7rem]">
+                <h4 class="font-[inter] text-[1.2rem] underline font-bold leading-none">Global alliance talk</h4>
+            <small class="font-[inter] text-justify font-normal leading-[.9rem] text-[.8rem]">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tempora.
                         <a href="#" class="text-red-400 font-bold ">read more</a>
             </small>

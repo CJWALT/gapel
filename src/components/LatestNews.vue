@@ -13,7 +13,7 @@
 
         </div>
 
-        <div class="w-[75%] lg:border-2 lg:border-red-400 md:border-2 md:border-red-400 flex flex-col md:flex-row gap-[1.7rem] mx-auto pt-[3.7rem]">
+        <div class="w-[95%] lg:border-2 lg:border-red-400 flex flex-col md:flex-row md:gap-[1.5rem] gap-[1.7rem] mx-auto pt-[3.7rem]">
            <NewsCard />  
            <NewsCard />  
            <NewsCard />  
