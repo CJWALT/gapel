@@ -13,7 +13,7 @@
 
         </div>
 
-        <div class="w-[95%] lg:w-[90%] flex flex-col md:flex-row md:gap-[2rem] lg:gap-[1rem] gap-[1.7rem] mx-auto pt-[3.7rem]">
+        <div class="w-[95%] lg:w-[90%] flex flex-col md:flex-row md:gap-[2rem] justify-center lg:gap-[1.4rem] gap-[1.7rem] mx-auto pt-[3.7rem]">
            <NewsCard />  
            <NewsCard />  
            <NewsCard />  
