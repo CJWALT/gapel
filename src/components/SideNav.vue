@@ -31,8 +31,8 @@
                 <div class="w-[25%] md:w-[20%]">
                     <img src="../assets/img/gapel.png" class=" rounded-md" alt="logo">
                 </div>
-                <span @click="showMenu" class="font-bold shadow-md text-pink-400 cursor-pointer">
-                    <svg-icon type="mdi" :path="path"></svg-icon>
+                <span @click="showMenu" class="font-bold shadow-md text-white cursor-pointer">
+                    <svg-icon type="mdi" :path="path" class="w-[3rem] h-[3rem]"></svg-icon>
                 </span>
                 
             </div>
