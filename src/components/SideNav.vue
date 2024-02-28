@@ -32,7 +32,7 @@
                     <img src="../assets/img/gapel.png" class=" rounded-md" alt="logo">
                 </div>
                 <span @click="showMenu" class="font-bold shadow-md text-pink-400 cursor-pointer">
-                    menu
+                    <svg-icon type="mdi" :path="path"></svg-icon>
                 </span>
                 
             </div>
@@ -42,6 +42,11 @@
     
     import {ref} from 'vue';
     import Button from './Button.vue';
+    import SvgIcon from '@jamescoyle/vue-icon';
+    import { mdiMenu } from '@mdi/js';
+
+    
+  const path = mdiMenu;
 
     const navStyles = 'pt-[1.2rem] pb-1 pl-2 hover:text-[#052554] transform transition-transform translate-x-0 duration-900 ease-in leading-none hover:rounded-[.1rem] hover:bg-[#E8F1FF] sm:left-[-30px] md:left-[0px]'
 
@@ -54,7 +59,7 @@
 
     const showMenu = () =>{
         showNav.value = !showNav.value
-        console.log(showNav)
+        
     }
     
 

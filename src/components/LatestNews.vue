@@ -8,12 +8,12 @@
             </div>
             <div class="flex flex-row gap-4">
                 <span class="w-1 h-auto rounded-md bg-[#24549C] "></span>
-                <span class="bg-[#18478D] rounded-full p-3">arrow</span>
+                <span class="bg-[#18478D] rounded-full text-white text-[1rem] cursor-pointer p-3"><svg-icon type="mdi" :path="path"></svg-icon></span>
             </div>
 
         </div>
 
-        <div class="w-[95%] lg:border-2 lg:border-red-400 flex flex-col md:flex-row md:gap-[1.5rem] gap-[1.7rem] mx-auto pt-[3.7rem]">
+        <div class="w-[95%] lg:border-2 lg:border-red-400 flex flex-col md:flex-row md:gap-2 gap-[1.7rem] mx-auto pt-[3.7rem]">
            <NewsCard />  
            <NewsCard />  
            <NewsCard />  
@@ -30,6 +30,10 @@
 
 <script setup> 
     import NewsCard from './NewsCard.vue';
+    import SvgIcon from '@jamescoyle/vue-icon';
+    import { mdiArrowRightDropCircle } from '@mdi/js';
+
+    const path = mdiArrowRightDropCircle;
 
 
 </script>
