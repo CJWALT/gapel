@@ -4,11 +4,18 @@ import './style.css'
 
 import App from './App.vue'
 import Home from './views/Home.vue'
+import WhatWeDo from './views/WhatWeDo.vue'
+import WhoWeAre from './views/WhoWeAre.vue'
+import LatestNews from './views/LatestNews.vue'
+import Gallery from './views/Gallery.vue'
 
 
 const routes = [
     { path: '/', component: Home },
-    // { path: '/about', component: About },
+    { path: '/whatwedo', component: WhatWeDo },
+    { path: '/whoweare', component: WhoWeAre },
+    { path: '/latestnews', component: LatestNews },
+    { path: '/gallery', component: Gallery },
   ]
 
 const router = createRouter({

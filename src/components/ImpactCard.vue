@@ -1,6 +1,6 @@
 <template> 
-  <div class="min-w-[18rem] md:w-[60%] p-6 mx-auto mt-[4rem] bg-impactrgba rounded-[0.5rem] shadow-impactShadow">
-    <div class="w-[5.8rem] p-2 rounded-[0.9rem] bg-impactbgrgba mx-auto"> 
+  <div class="min-w-[16rem] md:min-w-[44%] md:w-[45%] lg:min-w-[33%] lg:w-[33%] xl:min-w-[30%] xl:w-[29%] p-4 mx-auto mt-[4rem] bg-impactrgba rounded-[0.5rem] shadow-impactShadow">
+    <div class="w-[5rem] p-2 rounded-[0.9rem] bg-impactbgrgba mx-auto"> 
         <img src="../assets/img/tesone.png" class=" object-cover mx-auto" alt="tes1"/>
     </div>
     <div class=" mt-3 flex flex-col gap-1">

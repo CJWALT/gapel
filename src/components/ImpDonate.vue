@@ -6,7 +6,7 @@
         
 
         
-            <div class="relative flex flex-row gap-5 overflow-x-scroll"> 
+            <div class="relative flex flex-row gap-5 xl:pl-[7rem] xl:pr-[7rem] overflow-x-scroll"> 
                 <ImpactCard/>
                 <ImpactCard/>
                 <ImpactCard/>

@@ -9,12 +9,12 @@
             </div>
             <div class="flex flex-col mx-auto w-[70%] lg:mt-[0rem] mt-[5rem] font-[inter] font-semibold text-white">
                 <router-link to='/' :class="[navStyles, 'navBorderGrad']" >home</router-link>
-                <router-link to='/' :class="[navStyles, 'navBorderGrad']">who we are</router-link>
-                <router-link to='/' :class="[navStyles, 'navBorderGrad']"> what we do</router-link>
-                <router-link to='/' :class="[navStyles, 'navBorderGrad']">latest news</router-link>
+                <router-link to='/whoweare' :class="[navStyles, 'navBorderGrad']">who we are</router-link>
+                <router-link to='/whatwedo' :class="[navStyles, 'navBorderGrad']"> what we do</router-link>
+                <router-link to='/latestnews' :class="[navStyles, 'navBorderGrad']">latest news</router-link>
             </div>
             
-                <router-link to='/' class=" relative rounded-md shadow-[#629DF54D] hover:shadow-md hover:shadow-white shadow-md flex justify-center px-3 py-2 mx-auto mt-[1.8rem] font-bold text-white" >gallery</router-link>
+                <router-link to='/gallery' class=" relative rounded-md shadow-[#629DF54D] hover:shadow-md hover:shadow-white shadow-md flex justify-center px-3 py-2 mx-auto mt-[1.8rem] font-bold text-white" >gallery</router-link>
             
             <div class="mt-[4.2rem] w-[90%] flex flex-row gap-[1.6rem] mx-auto items-center">
                 <Button

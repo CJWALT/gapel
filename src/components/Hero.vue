@@ -1,7 +1,7 @@
 <template>
 
          
-<section class="z-0 h-full relative lg:max-w-[80%] lg:min-w-[77%] w-[100%]
+<section class="z-0 h-full relative lg:min-w-[77%] w-[100%]
                         before:absolute before:inset-0 before:bg-[#35598F] before:opacity-50
         ">
         
@@ -13,12 +13,8 @@
 
 
         <div class=" z-50 relative pt-[3rem] w-[90%] mx-auto flex flex-col gap-5 overflow-hidden">
-           <div class="p-[.5rem] items-center shadow-md mb-[3.5rem] self-end overflow-hidden whitespace-nowrap right-0 lg:flex hidden bg-[#18478D] rounded-[100%] h-[50px] w-[145px]">
-            <span
-             class="z-20 text-white font-bold marq"
-            >Play your part by taking action</span>
-           </div>
-            <div class="flex flex-col h-[100vh] gap-8 lg:justify-start justify-center">
+          
+            <div class="flex flex-col h-[100vh] gap-8 justify-center">
 
                 <div
                 class="

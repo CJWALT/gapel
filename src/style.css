@@ -93,6 +93,15 @@ a.active{
   transform: translateX(-100%);
 }
 
+
+
+::-webkit-scrollbar{ 
+  width:2px;
+}
+::-mox-scrollbar{ 
+  width:2px;
+}
+
 @media screen and (min-width: 1024px) {
   .slide-nav-out {
     transform: translateX(0%);
